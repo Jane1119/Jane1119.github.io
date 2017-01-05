@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>.</title>
+  <style>
+    video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    }
+
+    body {
+      background-color: black;
+      cursor: none !important
+    }
+
+  </style>
+
+
+<body>
+  <video width=500 height=300 autoplay>
+    <source src="2-5.mp4">
+  </video>
+  <script>
+    setTimeout(function() {
+      window.close();
+    }, 13000);
+  </script>
+</body>
+</html>
